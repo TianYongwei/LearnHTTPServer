@@ -18,11 +18,11 @@ nginx -s reload
 pkill -9 nginx
 #### 6.检查对nginx.conf文件的修改是否正确
 
-nginx -t -c /etc/nginx/nginx.conf
-or 
-nginx -t
+nginx -t -c /etc/nginx/nginx.conf  
+or   
+nginx -t  
 #### 7.查看nginx的版本
 
-nginx -v
-or
-nginx -V
+nginx -v   
+or  
+nginx -V  
