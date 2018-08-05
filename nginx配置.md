@@ -1,8 +1,6 @@
 # Nignx 配置方法
 
-整个 Nginx 本质上实在维护一颗配置文件树，
-树的根是 Nginx.conf 。 
-通过 include 引如 module 配置 和 server 配置。
+> `注意`:整个 Nginx 配置本质上实在维护一颗配置文件树 —— Nginx.conf，树的根是 Nginx.conf 。 通过 include 引如 module 配置 和 server 配置。
 
 ## `nginx.conf` 配置
 
