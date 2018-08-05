@@ -1,5 +1,7 @@
 # Learn HTTPServer
 
+学习主流 HTTP 服务器使用。
+
 ## Nginx
 
 - [ Nginx 设计思想](./nginx-design.md)
