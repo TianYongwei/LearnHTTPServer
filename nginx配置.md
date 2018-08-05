@@ -55,7 +55,6 @@ server {
     root         /var/static/LearnHTTPServer/; # 文件寻址根路径
 
     # Load configuration files for the default server block.
-    #  include /etc/nginx/default.d/*.conf;
 
     location / {
     }
@@ -72,3 +71,6 @@ server {
 ```
 
 ## `module.conf` 配置
+
+- module 文件是 .so文件
+- 可以自己开发 module
